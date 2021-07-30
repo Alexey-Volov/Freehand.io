@@ -1,0 +1,41 @@
+.tips {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .info {
+        margin-bottom: 85px;
+    }
+}
+
+.tips-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.tips-million {
+    background-image: url("./../img/tips/million.jpg");
+    width: 553px;
+    height: 483px;
+    font-size: 36px;
+    line-height: 1.33;
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 64px;
+    padding-left: 48px;
+    padding-right: 56px;
+    color: #FFFFFF;
+}
+.tips-expand {
+    background-image: url("./../img/tips/expand.jpg");
+    width: 553px;
+    height: 483px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 1.33;
+    letter-spacing: 0.2px;
+    padding-bottom: 64px;
+    padding-left: 48px;
+    padding-right: 72px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,62 @@
+.button {
+    border: none;
+    background-color: unset;
+    border: 2px solid #16133D;
+    border-radius: 8px;
+    padding: 15px 35px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.button--sign-in {
+    margin-right: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #16133D;
+    &:hover {
+        background-color: #16133D;
+        transition: .2s ease-in;
+        color: #fff;
+    }
+}
+.button--login {
+    background-color: #16133D;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #fff;
+        transition: .2s ease-in;
+        color: #16133D;
+    }
+}
+
+.btns {
+    border: none;
+    background-color: unset;
+    border: 2px solid #007FFC;
+    border-radius: 8px;
+    padding: 14px 40px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #007FFC;
+    &:hover {
+        transition: .2s ease-in;
+        background-color: #007FFC;
+        color: #fff;
+    }
+}
+.btns--blue {
+    background-color: #007FFC;
+    margin-right: 20px;
+    color: #FFFFFF;
+    &:hover {
+        transition: .2s ease-in;
+        background-color: #fff;
+        color: #007FFC;
+    }
+}
